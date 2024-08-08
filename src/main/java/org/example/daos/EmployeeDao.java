@@ -10,7 +10,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeDao {
+public final class EmployeeDao {
 
     public List<Employee> getAllSalesEmloyees() throws SQLException {
         List<Employee> employees = new ArrayList<>();

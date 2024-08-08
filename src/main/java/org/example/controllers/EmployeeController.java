@@ -22,7 +22,7 @@ public class EmployeeController {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getEmployees() throws SQLException {
+    public Response getAllSalesEmloyees() throws SQLException {
         return Response.ok().entity(testService.getAllEmployees()).build(); //update to employee service when ready
     }
 }

@@ -18,7 +18,7 @@ public final class EmployeeService {
 
 
     public List<Employee> getAllSalesEmloyees() throws SQLException {
-        return EmployeeDao.getAllSalesEmloyees();
+        return employeeDao.getAllSalesEmloyees();
     }
 
 }

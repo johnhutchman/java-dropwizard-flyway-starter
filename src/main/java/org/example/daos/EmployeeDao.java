@@ -11,10 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class EmployeeDao {
-    private EmployeeDao() {
-    }
 
-    public static List<Employee> getAllSalesEmloyees() throws SQLException {
+    public List<Employee> getAllSalesEmloyees() throws SQLException {
         List<Employee> employees = new ArrayList<>();
 
         try

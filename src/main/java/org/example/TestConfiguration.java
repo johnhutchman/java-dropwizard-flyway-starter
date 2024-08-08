@@ -8,6 +8,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 public class TestConfiguration extends Configuration {
+
     @Valid
     @NotNull
     private final SwaggerBundleConfiguration swagger =

@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 public final class EmployeeService {
-    private EmployeeService(){
+    private EmployeeService() {
     }
 
     EmployeeDao employeeDao;
